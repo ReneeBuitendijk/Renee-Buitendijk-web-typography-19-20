@@ -1,0 +1,355 @@
+
+html {
+	animation: bgcolor infinite 7s;
+	}
+
+	@keyframes bgcolor {
+
+	0% {
+		background: black;
+	}
+
+	20% {
+		background: #262525;
+	}
+
+	40% {
+		background: black;
+	}
+
+	60% {
+		background: #262525;
+	}
+
+	80% {
+		background: black;
+	}
+
+	100% {
+		background: #262525;
+	}
+	}
+
+
+	.sound1 iframe .on{
+		-webkit-filter: invert(40%) grayscale(100%) brightness(40%)
+		sepia(100%) hue-rotate(-50deg) saturate(400%) contrast(2);
+		 filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+		 saturate(600%) contrast(0.8);
+	}
+.sound1 iframe .off{
+
+}
+
+	.sound9 iframe{
+		animation: box infinite 3s;
+}
+
+	@keyframes box {
+
+	0% {
+		box-shadow: 1px 1px 50px 1px blue;
+	}
+
+	20% {
+		box-shadow: 1px 1px 50px 1px red;
+	}
+
+	40% {
+		box-shadow: 1px 1px 50px 1px blue;
+	}
+
+	60% {
+		box-shadow: 1px 1px 50px 1px red;
+	}
+
+	80% {
+		box-shadow: 1px 1px 50px 1px blue;
+	}
+
+	100% {
+		box-shadow: 1px 1px 50px 1px red;
+	}
+	}
+
+	.sound10 iframe{
+		animation: box infinite 1s;
+	}
+
+	@keyframes box {
+
+	0% {
+		box-shadow: 1px 1px 50px 1px blue;
+	}
+
+  20% {
+		box-shadow: 1px 1px 50px 1px red;
+	}
+
+ 40% {
+		box-shadow: 1px 1px 50px 1px blue;
+	}
+
+	60% {
+		box-shadow: 1px 1px 50px 1px red;
+	}
+
+	80% {
+		box-shadow: 1px 1px 50px 1px blue;
+	}
+
+	100% {
+		box-shadow: 1px 1px 50px 1px red;
+	}
+	}
+
+
+
+#closed-captions p {
+	opacity: 0;
+	transition: .05s;
+	position: absolute;
+}
+#closed-captions .on {
+	opacity: 1;
+}
+#closed-captions .off {
+	transition: .2s;
+	opacity: 0;
+}
+
+#video-placeholder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;
+	width: 70em;
+	height: 39em;
+z-index: 2;
+}
+
+
+.voice1 {
+	/* robot voice */
+	font-family: brenner display;
+	color: red;
+	margin-top: 0em;
+	margin-left: 6em;
+	font-size: 33px;
+}
+
+.voice2 {
+	/* ryan gosling voice */
+	font-family: brenner;
+	font-style: normal;
+	font-weight: 800;
+	color: white;
+	font-size: 30px;
+	margin-left: 39em;
+	margin-top: 0em;
+	max-width: -moz-fit-content;
+}
+.interlinked {
+	font-family: brenner;
+	font-style: normal;
+	font-weight: 800;
+	color: white;
+	font-size: 30px;
+	margin-left: 37em;
+	margin-top: 0em;
+}
+
+.whitin {
+	font-family: brenner;
+	font-style: normal;
+	font-weight: 800;
+	color: white;
+	font-size: 30px;
+	margin-left: 31em;
+	margin-top: 0em;
+}
+
+.a {
+	font-family: brenner;
+font-style: normal;
+font-weight: 800;
+color: white;
+font-size: 30px;
+margin-left: 22em;
+margin-top: 0em;
+
+}
+
+.b {
+	font-family: brenner;
+font-style: normal;
+font-weight: 800;
+color: white;
+font-size: 30px;
+margin-left: 24em;
+margin-top: 0em;
+
+}
+
+.c {
+	font-family: brenner;
+font-style: normal;
+font-weight: 800;
+color: white;
+font-size: 30px;
+margin-left: 18em;
+margin-top: 0em;
+
+}
+
+.d {
+	font-family: brenner;
+font-style: normal;
+font-weight: 800;
+color: white;
+font-size: 30px;
+margin-left: 10em;
+margin-top: 0em;
+
+}
+
+.thank {
+	font-family: brenner;
+ font-style: normal;
+ font-weight: 800;
+ color: white;
+ font-size: 30px;
+ margin-left: 36em;
+ margin-top: 0em;
+}
+
+.dread {
+	font-family: brenner;
+ font-style: normal;
+ font-weight: 800;
+ color: white;
+ font-size: 30px;
+ margin-left: 33em;
+ margin-top: 0em;
+
+}
+
+.voice3 {
+	font-style: italic;
+	color: white;
+	font-size: 30px;
+	margin-left: 19em;
+	margin-top: -12em;
+}
+
+.voice4 {
+	font-family: brenner display;
+	color: red;
+	margin-top: -4em;
+	margin-left: 2em;
+	font-size: 115px;
+}
+
+.big {
+	font-family: brenner display;
+	color: red;
+	margin-top: -2em;
+	margin-left: 1em;
+	font-size: 229px;
+}
+
+.distinct {
+	font-family: brenner display;
+	color: red;
+	margin-top: -3em;
+	margin-left: 2em;
+	font-size: 129px;
+}
+
+.soundcaption0 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 7em;
+}
+
+.soundcaption1 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 17em;
+		}
+
+.soundcaption2 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 17em;
+}
+
+.soundcaption3 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 17em;
+}
+
+.soundcaption4 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 17em;
+}
+
+.soundcaption5 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 17em;
+}
+
+.soundcaption6 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 17em;
+}
+
+.soundcaption7 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 17em;
+}
+
+.soundcaption8 {
+    font-family: "Brenner Sans";
+    color: white;
+    font-size: 30px;
+		margin-top: -19em;
+		margin-left: 17em;
+}
+
+.soundcaption9 {
+	font-family: "Brenner Sans";
+	color: white;
+	font-size: 30px;
+	margin-top: -19em;
+	margin-left: 7em;
+}
+
+.soundcaption10 {
+    font-family: "Brenner Sans";
+    color: white;
+		font-size: 30px;
+		margin-top: -19em;
+		margin-left: 7em;
+}
